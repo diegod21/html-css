@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usando hover</title>
+    <style>
+        body{
+            background-color: #9EF8EE;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: #F24405;
+            background-color: #348888;
+        }
+        div:hover{
+            color: #FA7F08;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemple of hover</h1>
+    <p>Put the mouse at the text bellow</p>
+    <div>
+        Put your mouse here
+        <p>I'm here</p>
+    </div>
+</body>
+</html>

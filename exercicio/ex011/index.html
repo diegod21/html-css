@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+    <link rel="shortcut icon" href="21.favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>imagens dinamicas </h1>
+    <p>tente abrir em varias plataformas</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png">
+        <source media="(max-width: 1000px)" srcset="imagens/fotom.png">
+        <img src="imagens/fotog.png" alt="imagem flexivel">
+        <h1>reproduzindo audio</h1>
+        <p>vamos reproduzir audio em HTML5 </p>
+        <audio src="media/Faixa21.mp3" controls autoplay></audio>
+        <audio preload="auto" autoplay controls> 
+            <source src="media/Faixa21.mp3" type="audio/mpeg"  >
+        </audio>
+
+
+
+
+    </picture>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h1#principal{
+    color: black;
+    text-align: center;
+    font-size: 50px;    
+}
+h2{
+    color: brown;
+}
+.basico{
+    color: rgb(12, 88, 22);
+}
+.inter{
+    color: rgb(170, 168, 22);
+}
+.avan{
+    color: rgb(0, 44, 83);
+}
