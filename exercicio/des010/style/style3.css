@@ -21,7 +21,7 @@
     margin: 0px;
     padding: 0px}
 body{
-    background-color: var(--cor1);
+    background-image: url('../imagens/wallpaperf1.jpg');
 }
 header{
     background-image: linear-gradient(to top, var(--cor5) , var(--cor1));
